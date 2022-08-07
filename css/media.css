@@ -1,0 +1,163 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1500px) {
+   body{
+    width: 1500px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1024px)  and (min-width:875px){
+
+  .blog_article .blog_info p {
+    
+    line-height: 18px;
+font-size: 1vw;
+
+   }
+
+}
+
+
+@media only screen and (max-width:902px) {
+  .menu_items{
+
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+
+  .img_wrapper {
+    width:50vw;
+  }
+  .weekly_food_wrapper{
+
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+@media only screen and (max-width: 875px) {
+  .blog_articles, .blog_posts{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+ .blog .blog_article{
+    width: 100%;
+  }
+  .blog .blog_info{
+    width:62%;
+    margin-top: 5px;
+  }
+
+  .blog .blog_info h3 {
+    margin: 8px 0;
+  }
+
+  .blog .blog_info p{
+    margin-top: 0;
+  }
+
+  .blog_posts img{
+    width: 60vw;
+    height: auto;
+
+  }
+}
+
+
+
+  /* Small Devices, Tablets */
+
+  @media only screen and (max-width: 768px) {
+    .order{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+
+    .sumbition {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+.verification .sumbition button{
+  margin: 15px 0;
+}
+
+
+    .reservation_wrapper{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .reservation_wrapper .form_container{
+      flex-direction: column;
+      justify-content: space-around;
+      display: flex;
+      align-items: stretch;
+      width: 338px;
+      padding: 25px 10px;
+  }
+     
+    .reservation_wrapper .reservation_form {
+      align-self:unset 
+    }
+
+  }
+
+
+  /* Extra Small Devices, Phones */
+
+  @media only screen and (max-width: 767px) {
+
+    .img_wrapper {
+      width: initial;}
+
+
+    .menu_items{
+
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .navigation_item{
+
+      display: none;
+    }
+
+    nav .user_navigation{
+      justify-content: flex-end;
+      padding-right: 20px;
+    }
+    nav .user_navigation li:nth-child(5){
+
+      display: initial;
+          cursor: pointer;
+          
+      }
+      
+
+  }
+
+
+  @media only screen and (max-width: 645px) {
+    
+
+.additional_info {
+
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+  }
+}
